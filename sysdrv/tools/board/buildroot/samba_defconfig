@@ -1,6 +1,6 @@
 [global]
 	workgroup = WORKGROUP
-	server string = luckfox samba server
+	server string = samba server
 	security = user  
 	passdb backend = smbpasswd
 	smb passwd file = /etc/samba/smbpasswd

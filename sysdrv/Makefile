@@ -551,8 +551,8 @@ else
 	touch $(SYSDRV_DIR_OUT_ROOTFS)/userdata/.buildroot
 	cp $(SYSDRV_DIR)/tools/board/buildroot/shadow_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/shadow
 	cp $(SYSDRV_DIR)/tools/board/buildroot/sshd_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/ssh/sshd_config
-	cp $(SYSDRV_DIR)/tools/board/buildroot/samba_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/samba/smb.conf
-	cp $(SYSDRV_DIR)/tools/board/buildroot/smbpasswd_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/samba/smbpasswd
+	# cp $(SYSDRV_DIR)/tools/board/buildroot/samba_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/samba/smb.conf
+	# cp $(SYSDRV_DIR)/tools/board/buildroot/smbpasswd_defconfig $(SYSDRV_DIR_OUT_ROOTFS)/etc/samba/smbpasswd
 	cp $(SYSDRV_DIR)/tools/board/buildroot/S50sshd $(SYSDRV_DIR_OUT_ROOTFS)/etc/init.d/
 	cp $(SYSDRV_DIR)/tools/board/buildroot/S99python $(SYSDRV_DIR_OUT_ROOTFS)/etc/init.d/
 	cp $(SYSDRV_DIR)/tools/board/android-tools/S90usb0config $(SYSDRV_DIR_OUT_ROOTFS)/etc/init.d/
